@@ -1,0 +1,1 @@
+Dir.glob(['./test/*.*']).each { |file| puts `ruby #{file}` }
